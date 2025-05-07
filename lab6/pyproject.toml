@@ -1,0 +1,12 @@
+[project]
+name = "lab6"
+version = "0.1.0"
+description = "Very cool app"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "kafka-python>=2.2.4",
+]
+
+[tool.ruff]
+line-length = 80
